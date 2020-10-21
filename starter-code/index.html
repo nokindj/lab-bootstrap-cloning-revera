@@ -50,11 +50,6 @@
       </nav>
 
       <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-        </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="/starter-code/img/slider-1.jpg" class="d-block w-100" alt="...">
@@ -88,8 +83,8 @@
                 <a href="#" class="read-more"><b>READ MORE</b></a>
             </div>
           </div>
-        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <a class="carousel-control-prev"  href="#carouselExampleCaptions" role="button" data-slide="prev" >
+          <span class="carousel-control-prev-icon"  aria-hidden="true"></span>
           <span class="sr-only">Previous</span>
         </a>
         <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
@@ -117,7 +112,7 @@
             <div>
 
                 <div class="projects">
-                <h3><b>LATEST PROJECTS</b></h3>
+                <h4><b>LATEST PROJECTS</b></h4>
                 <p class="projects-paragraph"><b>FEW OF THE LATEST PORTFOLIO ITEMS</b></p>
                 <hr class="break" width="1115px">
             </div>
@@ -126,56 +121,101 @@
                     <div class="row" id="firstrow-images">
                       <div class="col-sm-3">
                         <img src="/starter-code/img/project-1.jpg"class=“card-img-top” alt=“...“ id="images-rows1">
-                        <p><b>Nunc libero elit, iaculis nec augue non</b></p>
+                        <p class="images-parag"><b>Nunc libero elit, iaculis nec augue non</b></p>
                       </div>
                       <div class="col-sm-3">
                         <img src="/starter-code/img/project-2.jpg"class=“card-img-top” alt=“...“ id="images-rows1">
-                        <p><b>Phasellus aliquet iaculis neque accumsan <br>aliquam</b></p>
+                        <p class="images-parag"><b>Phasellus aliquet iaculis neque accumsan <br>aliquam</b></p>
                       </div>
                       <div class="col-sm-3">
                         <img src="/starter-code/img/project-3.jpg"class=“card-img-top” alt=“...“ id="images-rows1">
-                        <p><b>Vivamus blandit ipsum sed arcu euismod</b></p>
+                        <p class="images-parag"><b>Vivamus blandit ipsum sed arcu euismod</b></p>
                       </div>
                       <div class="col-sm-3">
                         <img src="/starter-code/img/project-4.jpg"class=“card-img-top” alt=“...“ id="images-rows1">
-                        <p><b>Curabitur auctor dolor risus, vitae <br>pellentesque arcu consequat</b></p>
+                        <p class="images-parag"><b>Curabitur auctor dolor risus, vitae <br>pellentesque arcu consequat</b></p>
                       </div>
                     </div>
                   </div>
-                  <div class="projects">
-                    <h3><b>LATEST ARTICLES</b></h3>
+                  <div class="projects" id="project-2">
+                    <h4><b>LATEST ARTICLES</b></h4>
                     <p class="projects-paragraph"><b>LATEST POSTS FROM THE BLOG</b></p>
                     <hr class="break" width="1115px">
                 </div>
             </div>
             <div class="container" >
-                <div class="row" id="firstrow-images">
+                <div class="row" id="secondrow-images">
                   <div class="col-sm-3">
                     <img src="/starter-code/img/slider-1.jpg"class=“card-img-top” alt=“...“ id="images-rows1">
-                    <p><b>Etiam mauris tortor, pharetra quis <br>lobortis in, pharetra in diam</b></p>
-                    <p><b>POSTED ON <a href="#">AUGUST 19,2013</a> BY <a href="#">ADMIN</a></b></p>
-                    <p>Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec. Suspendisse at erat luctus; hendrerit sapien sed, consectetur erat. Maecenas dignissim suscipit orci at molestie. Aenean fringilla dolor vitae lacus lacinia eleifend. Suspendisse et libero nunc. Etiam mauris tortor, pharetra […]</p>
+                    <p id="title-post"><b>Etiam mauris tortor, pharetra quis <br>lobortis in, pharetra in diam</b></p>
+                    <p id="posted"><b>POSTED ON <a href="#">AUGUST 19,2013</a> BY <a href="#">ADMIN</a></b></p>
+                    <p id="p-posted">Duis tempus leo vitae ipsum viverra, blandit <br>condimentum sapien porttitor. Duis porttitor <br>sed metus eget mollis. Curabitur bibendum <br>imperdiet tortor, ut pulvinar purus <br>elementum nec. Suspendisse at erat <br>luctus; hendrerit sapien sed, consectetur <br>erat. Maecenas dignissim suscipit orci at<br> molestie. Aenean fringilla dolor vitae lacus <br>lacinia eleifend. Suspendisse et libero<br> nunc. Etiam mauris tortor, pharetra […]</p>
                   </div>
                   <div class="col-sm-3">
                     <img src="/starter-code/img/slider-3.jpg"class=“card-img-top” alt=“...“ id="images-rows1">
-                    <p><b>Falauris sollicitudin quis dolor <br>venenatis facilisis</b></p>
-                    <p><b>POSTED ON <a href="#">AUGUST 19,2013</a> BY <a href="#">ADMIN</a></b></p>
-                    <p>Donec sed dolor eu augue dignissim pellentesque. Fusce semper tortor ornare, luctus sem in, dictum leo. Ut at congue quam! Maecenas luctus interdum odio, eget volutpat velit hendrerit eu? Suspendisse at magna ut sem blandit hendrerit non ut magna. Cras quis porta dolor. Aliquam erat volutpat. Phasellus fringilla feugiat libero nec volutpat. Maecenas fermentum bibendum […]</p>
+                    <p id="title-post"><b>Falauris sollicitudin quis dolor <br>venenatis facilisis</b></p>
+                    <p id="posted"><b>POSTED ON <a href="#">AUGUST 19,2013</a> BY <a href="#">ADMIN</a></b></p>
+                    <p id="p-posted">Donec sed dolor eu augue dignissim <br>pellentesque. Fusce semper tortor ornare,<br> luctus sem in, dictum leo. Ut at congue <br>quam! Maecenas luctus interdum odio, <br>eget volutpat velit hendrerit eu? <br>Suspendisse at magna ut sem blandit <br>hendrerit non ut magna. Cras quis porta <br>dolor. Aliquam erat volutpat. Phasellus <br>fringilla feugiat libero nec volutpat. <br>Maecenas fermentum bibendum […]</p>
                   </div>
                   <div class="col-sm-3">
                     <img src="/starter-code/img/slider-4.jpg"class=“card-img-top” alt=“...“ id="images-rows1">
-                    <p><b>Suspendisse ornare, felis feugiat <br>suscipit pharetra</b></p>
-                    <p><b>POSTED ON <a href="#">AUGUST 19,2013</a> BY <a href="#">ADMIN</a></b></p>
-                    <p>Quisque sit amet sagittis justo. Suspendisse ornare, felis feugiat suscipit pharetra, lorem est viverra odio; tristique tristique diam tellus id tellus. In consectetur aliquet tristique. Curabitur imperdiet leo in nisl consectetur mattis. Quisque bibendum, mauris vitae suscipit ornare; est nibh elementum mauris, eu malesuada nunc magna at justo. Proin blandit id tellus non pellentesque. Mauris […]</p>
+                    <p id="title-post"><b>Suspendisse ornare, felis feugiat <br>suscipit pharetra</b></p>
+                    <p id="posted"><b>POSTED ON <a href="#">AUGUST 19,2013</a> BY <a href="#">ADMIN</a></b></p>
+                    <p id="p-posted">Quisque sit amet sagittis justo. <br>Suspendisse ornare, felis feugiat suscipit <br>pharetra, lorem est viverra odio; tristique <br>tristique diam tellus id tellus. In consectetur <br>aliquet tristique. Curabitur imperdiet leo in <br>nisl consectetur mattis. Quisque bibendum, <br>mauris vitae suscipit ornare; est nibh <br>elementum mauris, eu malesuada nunc<br> magna at justo. Proin blandit id tellus non <br>pellentesque. Mauris […]</p>
                   </div>
                   <div class="col-sm-3">
                     <img src="/starter-code/img/dog.jpg"class=“card-img-top” alt=“...“ id="images-rows1">
-                    <p><b>Festibulum purus odio, ornare non<br> posuere</b></p>
-                    <p><b>POSTED ON <a href="#">AUGUST 19,2013</a> BY <a href="#">ADMIN</a></b></p>
-                    <p>Aenean quis rhoncus nisl, eget sollicitudin ipsum. Curabitur a elementum purus. Quisque vitae dui at arcu porttitor laoreet ac vitae nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla facilisi. Nulla egestas at nunc at volutpat. Nullam sodales at diam vel tempor. Sed pretium, leo vel pellentesque dictum, ligula […]</p>
+                    <p id="title-post"><b>Festibulum purus odio, ornare non<br> posuere</b></p>
+                    <p id="posted"><b>POSTED ON <a href="#">AUGUST 19,2013</a> BY <a href="#">ADMIN</a></b></p>
+                    <p id="p-posted">Aenean quis rhoncus nisl, eget sollicitudin <br>ipsum. Curabitur a elementum purus. <br>Quisque vitae dui at arcu porttitor laoreet <br>ac vitae nibh. Class aptent taciti sociosqu <br>ad litora torquent per conubia nostra, per <br>inceptos himenaeos. Nulla facilisi. Nulla <br>egestas at nunc at volutpat. Nullam <br>sodales at diam vel tempor. Sed pretium, <br>leo vel pellentesque dictum, ligula […]</p>
                   </div>
                 </div>
               </div>
+              <div class="bottom-section">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-sm">
+                      <h5 class="bottom-h5">REVERA</h5>
+                      <p class="bottom-p">Cum sociis natoque penatibus et magnis <br>dis parturient montes, nascetur ridiculus <br>mus. Vestibulum vehicula erat non congue <br>cursus. Aenean auctor nulla quis augue <br>dictum, sed sagittis odio varius? Aliquam <br>nec venenatis turpis. Aenean euismod arcu <br>vel volutpat tristique. In mattis ipsum quis <br>magna feugiat, id tempus metus <br>accumsan.</p>
+                    </div>
+                    <div class="col-sm">
+                      <h5 bottom-h5>META</h5>
+                      <a href="#" class="bottom-p">Log in</a>
+                      <hr>
+                      <a href="#" class="bottom-p">Entries RSS</a>
+                      <hr>
+                      <a href="#" class="bottom-p">Comments RSS</a>
+                      <hr>
+                      <a href="#" class="bottom-p">WordPress.org</a>
+                      <hr>
+                    </div>
+                    <div class="col-sm">
+                      <h5 class="bottom-h5">ARCHIVES</h5>
+                      <a href="#" class="bottom-p">August 2013</a>
+                    <hr>
+                    </div>
+                    <div class="col-sm">
+                      <h5 class="bottom-h5">RECENT POSTS</h5>
+                      <a href="#" class="bottom-p">Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam</a>
+                      <hr>
+                      <a href="#" class="bottom-p">Nunc libero elit, iaculis nec augue non</a>
+                      <hr>
+                      <a href="#" class="bottom-p">Falauris sollicitudin quis dolor venenatis facilisis</a>
+                      <hr>
+                      <a href="#" class="bottom-p">Phasellus aliquet iaculis neque accumsan aliquam</a>
+                      <hr>
+                      <a href="#" class="bottom-p">Vivamus blandit ipsum sed arcu euismod</a>
+                      <hr>
+                  </div>
+                </div>
+              </div>
+              <footer>
+              <div class="container">
+                <span>
+                  Copyright © 2018 revera - Just another demo Sites site. <br> | Revera Theme
+                </span>
+              </div>
+            </footer>
             
                 
           

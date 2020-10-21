@@ -6,6 +6,9 @@
     margin-left: 170px;
    justify-content: space-between;
 }
+#nav-all {
+    background-color: #ffffff;
+}
 .navbar-brand {
     margin-left: 150px;
 }
@@ -49,7 +52,7 @@
 }
 .projects {
     margin-top: 60px;
-    margin-left: 130px;
+    margin-left: 165px;
 }
 
 .break {
@@ -96,6 +99,74 @@ h2 {
 }
 
 #firstrow-images {
+    padding-top: 14px;
     display: flex;
     flex-direction: row;
+}
+.images-parag {
+    font-family: helvetica;
+    margin-top: 16px;
+    font-size: 14px;
+    
+    text-align: center;
+}
+#secondrow-images {
+    padding-top: 14px;
+    font-size-adjust: 40px;
+    font-size: 15px;
+    text-align: left;
+}
+#title-post {
+    font-family: sans-serif;
+    vertical-align: baseline;
+    color: #000;
+    font-size: 15px;
+    text-align: left;
+    padding-top: 20px;
+}
+#posted {
+    font-size: 12px;
+    font-family: inherit;
+    color: #606060;
+    vertical-align: baseline;
+}
+#posted a {
+    color: #f4473a;
+}
+#p-posted {
+    margin: 0 0 10px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    line-height: 1.6;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+.bottom-section {
+    border-top: 5px solid #ed564b;
+    background: #3b3b3b;
+    color: white;
+    padding-top: 45px;
+    text-align: left;
+    font-size: 13px; 
+}
+
+.bottom-h5 {
+    padding-bottom: 1em;
+}
+
+.bottom-p {
+color: #aaaaaa;
+}
+
+footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: left;
+    background-color: #292929;
+    color: white;
+    font-size: 12px;
 }
